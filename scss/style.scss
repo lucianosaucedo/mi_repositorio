@@ -1,0 +1,173 @@
+@import "imagenes";
+@import "textos";
+@import "media";
+
+$color-h1: red;
+$center-h1: center;
+$background-h1: black;
+$border-h1: 3px red solid;
+$margin-h1: 20px 500px;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backList {
+    background-image: linear-gradient(to bottom, orange, rgb(161, 0, 0));
+    color: blue;
+}
+
+.ul{
+    display: grid;
+}
+
+ul{
+    list-style: none;
+
+}
+
+li{
+    display: inline-block;
+width: 19%;
+position: relative;
+font-size: 25px;
+}
+
+ul ul{
+    position: absolute;
+display: none;
+background-image: linear-gradient(to top, blue, white);
+}
+
+ul ul li{
+    display: block;
+width: 200px;
+
+a{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+/*grilla grid miembros*/
+
+.ulMiembro {
+    display: grid;
+    grid-template-areas:
+        "DM DMli"
+        "HM HMli"
+        "IM IMli"
+        "KAM KAMli"
+        "KIM KIMli"
+        "KOM KOMli"
+        "PM PMli"
+        "SM SMli"
+        "TM TMli"
+        "ZM ZMli";
+    grid-template-rows: 10% 400px 23% 400px 8% 400px 20% 15% 400px 700px;
+    grid-template-columns: 1fr 10fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    justify-items: stretch;
+    border: red solid 5px;
+    z-index: -3;
+    }
+
+    .DM{
+        grid-area: DM;
+    }
+        .DMli{
+            grid-area: DMli;
+            border: red solid 5px;
+            background-color:black;
+        }
+    .HM{
+        grid-area: HM;
+    }
+        .HMli{
+            grid-area: HMli;
+            border: red solid 5px;
+            background-color:black;
+        }
+    .IM{
+        grid-area: IM;
+    }
+        .IMli{
+            grid-area: IMli;
+            border: red solid 5px;
+            background-color:black;
+        }
+    .KAM{
+        grid-area: KAM;
+    }
+        .KAMli{
+            grid-area: KAMli;
+            border: red solid 5px;
+            background-color:black;
+        }
+    .KIM{
+        grid-area: KIM;
+    }
+        .KIMli{
+            grid-area: KIMli;
+            border: red solid 5px;
+            background-color:black;
+        }
+    .KOM{
+        grid-area: KOM;
+    }
+        .KOMli{
+            grid-area: KOMli;
+            border: red solid 5px;
+            background-color:black;
+        }
+    .PM{
+        grid-area: PM;
+    }
+        .PMli{
+            grid-area: PMli;
+            border: red solid 5px;
+            background-color:black;
+        }
+    .SM{
+        grid-area: SM;
+    }
+        .SMli{
+            grid-area: SMli;
+            border: red solid 5px;
+            background-color:black;
+        }
+    .TM{
+        grid-area: TM;
+        }
+        .TMli{
+            grid-area: TMli;
+            border: red solid 5px;
+            background-color:black;
+        }
+    .ZM{
+        grid-area: ZM;
+        }
+        .ZMli{
+            grid-area: ZMli;
+            border: red solid 5px;
+            background-color:black;
+        }
+
+/*secciones*/ 
+
+section{
+    background-image: linear-gradient(to top, rgb(0, 204, 255), rgb(4, 252, 86));
+}
+
+.saga{
+    width: 100%;
+    height: 100%;
+}

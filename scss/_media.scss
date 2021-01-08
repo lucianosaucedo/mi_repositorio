@@ -1,0 +1,274 @@
+@media only screen and (max-width: 480px){
+h1{
+    margin: 20px 270px;
+}
+
+    header{
+        width: 175%;
+        li{
+            display: block;
+        }
+    }
+
+
+footer{
+    width: 175%;
+}
+
+span{
+    display: block;
+}
+
+.mielist{
+    margin-left: 80px;
+}
+
+.hislist{
+    margin-left: 200px;
+}
+.enflist{
+    margin-left: 300px;
+}
+.dislist{
+    margin-left: 420px;
+}
+
+h2{
+    width: 175%;
+}
+
+.miembro_enlace--translate {
+    display: grid;
+    transform: translate(170px, -1225px);
+}
+
+.historia_enlace--translate {
+    display: grid;
+    transform: translate(170px, -950px);
+}
+
+.enfrentamientos_enlace--translate {
+    display: grid;
+    transform: translate(70px, -700px);
+}
+
+.discografia_enlace--translate {
+    display: grid;
+    transform: translate(120px, -400px);
+}
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px){
+    header{
+        width: 120%;
+        li{
+            display: block;
+        }
+    }
+
+
+footer{
+    width: 120%;
+}
+
+span{
+    display: block;
+}
+
+.mielist{
+    margin-left: 80px;
+}
+
+.hislist{
+    margin-left: 250px;
+}
+.enflist{
+    margin-left: 350px;
+}
+.dislist{
+    margin-left: 540px;
+}
+
+h2{
+    width: 120%;
+}
+
+.miembro_enlace--translate {
+    display: grid;
+    transform: translate(170px, -1225px);
+}
+
+.historia_enlace--translate {
+    display: grid;
+    transform: translate(170px, -950px);
+}
+
+.enfrentamientos_enlace--translate {
+    display: grid;
+    transform: translate(70px, -700px);
+}
+
+.discografia_enlace--translate {
+    display: grid;
+    transform: translate(120px, -400px);
+}
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px){
+    header{
+        width: 120%;
+        li{
+            display: block;
+        }
+    }
+
+
+footer{
+    width: 120%;
+}
+
+span{
+    display: block;
+}
+
+.mielist{
+    margin-left: 80px;
+}
+
+.hislist{
+    margin-left: 250px;
+}
+.enflist{
+    margin-left: 350px;
+}
+.dislist{
+    margin-left: 540px;
+}
+
+h2{
+    width: 120%;
+}
+
+.miembro_enlace--translate {
+    display: grid;
+    transform: translate(170px, -1225px);
+}
+
+.historia_enlace--translate {
+    display: grid;
+    transform: translate(170px, -950px);
+}
+
+.enfrentamientos_enlace--translate {
+    display: grid;
+    transform: translate(70px, -700px);
+}
+
+.discografia_enlace--translate {
+    display: grid;
+    transform: translate(120px, -400px);
+}
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+
+        .ulMiembro {
+            display: grid;
+            grid-template-areas:
+                "DM DMli"
+                "HM HMli"
+                "IM IMli"
+                "KAM KAMli"
+                "KIM KIMli"
+                "KOM KOMli"
+                "PM PMli"
+                "SM SMli"
+                "TM TMli"
+                "ZM ZMli";
+            grid-template-rows: 10% 400px 25% 500px 8% 8% 22% 15% 400px 12%;
+            grid-template-columns: 1fr 10fr;
+            grid-column-gap: 10px;
+            grid-row-gap: 15px;
+            justify-items: stretch;
+            border: red solid 5px;
+            z-index: -3;
+    }
+
+    h1{
+        color: $color-h1;
+        text-align: $center-h1;
+        background-color: $background-h1;
+        border-top: $border-h1;
+        border-bottom: $border-h1;
+        width: 200px;
+        height: 60px;
+        transform: translate(-150px,0px);
+    }
+
+    ul {
+        list-style: none;
+       
+        display: flex;
+        justify-content: space-between;
+        width: 113%;
+    }
+
+    li{
+        width: 150% !important;
+    }
+
+    span {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 100%;
+        grid-template-rows: 300px 300px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .miembro_enlace--translate {
+        transform: translate(170px, -1175px);
+    }
+
+    .historia_enlace--translate {
+        transform: translate(170px, -955px);
+    }
+
+    .enfrentamientos_enlace--translate {
+        transform: translate(75px, -755px);}
+
+        .discografia_enlace--translate {
+            transform: translate(130px, -455px);
+        }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    h1{
+        color: $color-h1;
+        text-align: $center-h1;
+        background-color: $background-h1;
+        border-top: $border-h1;
+        border-bottom: $border-h1;
+        width: 200px;
+        height: 60px;
+    }
+
+    ul {
+        list-style: none;
+        
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .carousel-inner{
+        margin-left: 300px;
+        }
+        
+        .carousel-indicators,
+        .carousel-control-prev,
+        .carousel-control-next{
+           transform: translate(270px,0px);
+        }
+
+}

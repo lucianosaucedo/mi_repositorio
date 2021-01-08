@@ -1,0 +1,49 @@
+$border-img: red 3px solid;
+
+body{
+    background-image: url(../img/nube.jpg);
+}
+
+span img{
+    width: 500px;
+    height: 300px; 
+    margin: 20px;
+    border: $border-img;
+    border-radius: 10px;
+}
+
+span{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 300px 300px; 
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+img{
+    width: 500px;
+    height: 300px; 
+    margin: 20px;
+    border: $border-img;
+    border-radius: 10px;    
+    padding: 2px;
+    z-index: -2;
+}
+
+/*carousel*/
+
+section div{
+    width: 600px;
+    height: 400px;
+}
+
+.carousel-inner{
+margin-left: 600px;
+}
+
+.carousel-indicators,
+.carousel-control-prev,
+.carousel-control-next{
+   transform: translate(575px, -20px);
+}

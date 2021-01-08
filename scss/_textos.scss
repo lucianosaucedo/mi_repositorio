@@ -1,0 +1,118 @@
+$color-h1: red;
+$center-h1: center;
+$background-h1: black;
+$border-h1: 3px red solid;
+$margin-h1: 20px 500px;
+$h2-tamaño: 50px;
+
+h1{
+    color: $color-h1;
+    text-align: $center-h1;
+    background-color: $background-h1;
+    border-top: $border-h1;
+    border-bottom: $border-h1;
+    margin: $margin-h1;
+}
+
+/*letra <a>*/
+
+.miembro_enlace--translate{
+    transform: translate(170px, -475px);
+    font-size: $h2-tamaño;
+    font-family: fantasy;
+    text-decoration: none;
+    color: rgb(255, 94, 94);
+    background-image: linear-gradient(to left, black, rgb(78, 0, 131));
+    border-radius: 2px;
+    width: 215px;
+    z-index: -1;
+}
+
+.historia_enlace--translate{
+    transform: translate(170px, -475px);
+    font-size: $h2-tamaño;
+    font-family: fantasy;
+    text-decoration: none;
+    color: rgb(255, 94, 94);
+    background-image: linear-gradient(to left, black, rgb(78, 0, 131));
+    border-radius: 2px;
+    width: 188px;
+}
+
+.enfrentamientos_enlace--translate{
+    transform: translate(75px,-255px);
+    font-size: $h2-tamaño;
+    font-family: fantasy;
+    text-decoration: none;
+    color: rgb(255, 94, 94);
+    background-image: linear-gradient(to left, black, rgb(78, 0, 131));
+    border-radius: 2px;
+    width: 365px;
+}
+
+.discografia_enlace--translate{
+    transform: translate(130px,-255px);
+    font-size: $h2-tamaño;
+    font-family: fantasy;
+    text-decoration: none;
+    color: rgb(255, 94, 94);
+    background-image: linear-gradient(to left, black, rgb(78, 0, 131));
+    border-radius: 2px;
+    width: 265px;
+}
+div{
+    width: 100px;
+    height: 100px;
+}
+
+/*animacion letra <a>*/
+
+@keyframes Aparecer{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.miembro_enlace--translate,
+.historia_enlace--translate,
+.enfrentamientos_enlace--translate,
+.discografia_enlace--translate{
+    animation-duration: 5s;
+    animation-name: Aparecer;
+    animation-iteration-count: infinite;
+}
+
+h2{
+    font-family: initial;
+    color: rgb(216, 3, 216);
+    background-color: black;
+}
+
+h3{
+    color: red;
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border: black 2px double;
+    margin: 10px;
+    background-color: black;
+}
+
+h4{
+    font-family: cursive;
+    color: rgb(254, 255, 240);
+    background-color: rgb(236, 5, 5);
+}
+
+strong{
+    font-family: cursive;
+    color: rgb(216, 3, 216);
+    background-color: black;
+    font-style: italic;
+}
+
+h5{
+    font-family: initial;
+    color: rgb(216, 3, 216);
+    background-color: black;
+}
